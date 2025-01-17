@@ -1,0 +1,71 @@
+#contact{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    //height: 70vh;
+    position: relative;
+    padding-bottom: 15rem;
+    align-items: center;
+}
+
+p{
+text-align: center;
+font-size: 1rem;
+margin-bottom: 1rem;
+margin-top: 2rem;
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+} 
+
+.logo1{
+    width:3rem;
+    height:3rem;
+    padding:initial;
+}
+
+.logo2{
+    width:2.2rem;
+    height:2.2rem;
+    padding:0.5rem;
+   // padding-top: 1.5%;
+}
+
+.section-contact{
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 35px;
+    border:rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    border-width: 0.1rem;
+    margin: 1rem auto;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    margin: 0.5rem;
+}
+
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    margin: 0.5rem;
+}
+a{
+    color: #24262f;
+}
+a:hover{
+    color: rgb(114, 114, 222);
+}
+
+

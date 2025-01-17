@@ -1,0 +1,59 @@
+#skill{
+    position: relative;
+}
+
+p{
+text-align: center;
+font-size: 1rem;
+margin-bottom: 1rem;
+margin-top: 2rem;
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+} 
+.section-skill{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    //gap:4rem;
+    //flex-direction: row;
+}
+
+.section-skill-1{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+    border:rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    border-width: 0.1rem;
+    margin:1rem;
+
+}
+.section-skill-2{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+    border:rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    border-width: 0.1rem;
+    margin:1rem;
+}
+.section-skill-3{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+    border:rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    border-width: 0.1rem;
+    margin:1rem;
+}

@@ -1,0 +1,60 @@
+<section id="profile">
+  <div class="section-image">
+    <!-- <img src="./assets/image/c.jpg" alt="Hardika's Profile Picture"/> -->
+    <img
+      size="0.5px"
+      [src]="homeLabel.IMAGESRC"
+      alt="Hardika's Profile Picture"
+      class="profile-img"
+    />
+  </div>
+
+  <!-- <div class="section-description">
+        <p class="sec-descript-1">Hi, I am</p>
+        <h1 class="title">Hardika Jadhav</h1>
+        <p class="sec-descript-2">Frontend Developer</p>
+    </div> -->
+  <div class="section-description">
+    <p class="sec-descript-1">{{ homeLabel.START }}</p>
+    <h1 class="title">{{ homeLabel.NAME }}</h1>
+    <p class="sec-descript-2">{{ homeLabel.ROLE }}</p>
+    <!-- <P class="sec-descript-3">{{homeLabel.INTRO}}</P> -->
+
+    <div class="btn-div">
+      <button class="cv" onclick="window.open('./assets/images/Hresume.pdf')">
+        Download CV
+      </button>
+
+      <button class="contact" onclick="location.href='./#Contact'">
+        {{ homeLabel.GETINTOUCH }}
+      </button>
+      <br />
+
+      <a
+        class="link"
+        href="https://www.linkedin.com/in/hardikajadhav"
+        target="_blank"
+      >
+        <img src="./assets/images/linkedin.png" />
+      </a>
+
+      <a class="git" href="https://www.github.com/Hardi11" target="_blank">
+        <img src="./assets/images/github.png" />
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- <div class="btn-div">
+      <p-button
+        class="purple-btn"
+        [label]="LABELS.GETINTOUCH"
+        (click)="openDialog()"
+      />
+      <p-button
+        class="white-btn"
+        [label]="LABELS.BROWSEPROJECTS"
+        routerLink="/Projects"
+      />
+    </div>
+  </div> -->

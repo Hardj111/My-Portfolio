@@ -1,0 +1,30 @@
+<section id="skill">
+  <p class="get">Explore my</p>
+  <h1 class="title">Skills</h1>
+
+  <div class="section-skill">
+    <div class="section-skill-1">
+      <h2>Frontend Development</h2>
+      <div *ngFor="let item of skillsLabels.SKILLSLIST1">
+        <p>{{ item.title }}</p>
+        <!-- <p>{{ item.experience }}</p> -->
+      </div>
+    </div>
+
+    <div class="section-skill-2">
+      <h2>Backend Development</h2>
+      <div *ngFor="let item of skillsLabels.SKILLSLIST2">
+        <p>{{ item.title }}</p>
+      </div>
+    </div>
+
+    <div class="section-skill-3">
+      <h2>Other Skills</h2>
+      <div *ngFor="let item of skillsLabels.SKILLSLIST3">
+        <p>{{ item.title }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <div *ngFor="let item of navbarLabels.NAVITEMS">
+    <a mat-button class="pointer" [href]="'#'+item">{{item}}</a> -->

@@ -1,0 +1,15 @@
+
+<mat-toolbar>
+    
+<span class="pix pointer" routerLink="">{{navbarLabels.TITLE}}</span>
+
+<div class="links">
+  
+    <div *ngFor="let item of navbarLabels.NAVITEMS">
+      <a mat-button class="pointer" [href]="'#'+item">{{item}}</a>
+     
+      <!-- <a mat-button class="pointer" routerLinkActive="active" [routerLink]="'/'+ item">{{item}}</a> -->
+    </div>
+</div>
+
+  </mat-toolbar>
